@@ -1,0 +1,512 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Main.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "strRobotEmail&Sequence_36",
+        "strRobotMailPassword&Sequence_36",
+        "ConfigSheets&Sequence_36",
+        "strStartMailBody&Sequence_36",
+        "strStartMailBody&Sequence_45",
+        "strRobotMailPassword&Sequence_45",
+        "strRobotEmail&Sequence_45",
+        "TransactionItem&StateMachine_1",
+        "SystemException&StateMachine_1",
+        "BusinessException&StateMachine_1",
+        "TransactionNumber&StateMachine_1",
+        "Config&StateMachine_1",
+        "RetryNumber&StateMachine_1",
+        "TransactionField2&StateMachine_1",
+        "TransactionField1&StateMachine_1",
+        "TransactionID&StateMachine_1",
+        "dt_TransactionData&StateMachine_1",
+        "ConsecutiveSystemExceptions&StateMachine_1",
+        "ShouldStop&Sequence_25"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_OrchestratorQueueName",
+        "in_OrchestratorQueueFolder"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Emad Test.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "Invoice&Sequence_1",
+        "test&Sequence_1",
+        "strInvoiceFullData&Sequence_1",
+        "strFileFullName&Sequence_1",
+        "strFileName&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "ACMESystem 1/ACME_OpenUpdateWorkItem.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "strUpdateWorkItemURL&Sequence_3",
+        "boolUpdateWorkItem&Sequence_5"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_intRetryNumbers",
+        "in_tsRetryInterval",
+        "in_strWorkItemURL"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "ACMESystem 1/ACME_OpenWorkItemsDetails.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "boolDownloadPDFButton&Sequence_5",
+        "boolWorkItemDetails&Sequence_5"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_intTimeOutS",
+        "in_strWorkItemDetailsURL",
+        "in_intRetryNumbers",
+        "in_tsRetryInterval"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "ACMESystem 1/ACME_ClickDownloadInvoice.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "boolInvoiceWindow&Sequence_21",
+        "boolWorkItemDetails&Sequence_5",
+        "boolDownloadPDFButton&Sequence_5"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_intTimeOutS",
+        "in_intRetryNumbers",
+        "in_tsRetryInterval"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "ACMESystem 1/ACME_DownLoadInvoicePDF.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "boolInvoiceWindow&Sequence_21",
+        "strPDFName&Sequence_25",
+        "boolExistBefore&Sequence_25",
+        "boolFileExists&Sequence_28"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "out_strFileFullName",
+        "in_strSaveFolderPath",
+        "in_intRetryNumbers",
+        "in_tsRetryInterval",
+        "in_intTimeOutS"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "ACMESystem 1/ACME_SCrapInvoicePDFFileText.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "boolFileExists&Sequence_28"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_strFileFullName",
+        "in_RetryInterval",
+        "out_strInvoiceFullData",
+        "in_intRetryNumbers"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "ACMESystem 1/ACME_CheckIfVendorExistOrNot.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "boolVenderResultPageFound&Sequence_29",
+        "strVendorName&Sequence_24"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_intRetryNumbers",
+        "in_tsRetryInterval",
+        "in_intTimeOutS",
+        "in_strVendorName",
+        "out_boolVenderExist"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Framework/GetTransactionData.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [
+        "in_TransactionNumber",
+        "in_Config",
+        "out_TransactionItem",
+        "out_TransactionField1",
+        "out_TransactionField2",
+        "out_TransactionID",
+        "io_dt_TransactionData"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Framework/Process.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "strFileFullName&Sequence_2",
+        "strInvoiceFullData&Sequence_2",
+        "Invoice&Sequence_2",
+        "boolVendorExist&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_TransactionItem",
+        "in_Config"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Framework/SetTransactionStatus.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "QueueRetry&Sequence_17",
+        "ScreenshotPath&Sequence_17"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_BusinessException",
+        "in_TransactionField1",
+        "in_TransactionField2",
+        "in_TransactionID",
+        "in_SystemException",
+        "in_Config",
+        "in_TransactionItem",
+        "io_RetryNumber",
+        "io_TransactionNumber",
+        "io_ConsecutiveSystemExceptions"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "General/SendMail.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [
+        "in_strToMail",
+        "in_strSubject",
+        "in_strBody",
+        "in_intNumberOfRetries",
+        "in_tsRetryInterval",
+        "in_strAttatchFilePath",
+        "in_strSenderMail",
+        "in_strSenderMailPassword",
+        "in_intPort",
+        "in_strServer"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Framework/InitAllSettings.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "dt_SettingsAndConstants&Sequence_5",
+        "dt_Assets&Sequence_6",
+        "AssetValue&Sequence_11"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_ConfigFile",
+        "in_ConfigSheets",
+        "out_Config"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Framework/KillAllProcesses.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [
+        "in_strArrApps"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Framework/InitAllApplications.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "strUserName&Sequence_10",
+        "sstrPassword&Sequence_10"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_Config"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "ACMESystem 1/ACME_LaunchApp.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "boolLoginFound&Sequence_8"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_strAcmeUrl",
+        "in_intTimeS",
+        "in_intNumberOfRetries",
+        "in_tsRetryInterval"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "ACMESystem 1/ACME_Logout.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "boolPreCondition&Sequence_2",
+        "boolPostCondition&Sequence_5"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_RetryNumber",
+        "in_RetryInterval",
+        "in_intTimeOutS"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "ACMESystem 1/ACME_LoginApp.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "strRobotMailPassword&Sequence_12",
+        "errorimage&Sequence_12",
+        "strRobotEmail&Sequence_12",
+        "strStartMailBody&Sequence_12",
+        "boolLoginFound&Sequence_4",
+        "boolCredNotFound&Sequence_13",
+        "boolPostCondition&Sequence_8",
+        "strScreenShotFullPath&Sequence_11"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_strUsername",
+        "in_strPassword",
+        "in_intNumberOfRetries",
+        "in_Config",
+        "in_tsRetryInterval",
+        "in_intTimeOutS"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "ACMESystem 1/ACME_ClickWorkItems.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "boolPreCondition&Sequence_2",
+        "boolPostCondition&Sequence_5"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_intTimeOutS",
+        "in_intNumberOfRetries",
+        "in_tsRetryInterval"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "ACMESystem 1/ACME_GetInvoiceData.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "Invoice&Sequence_13",
+        "strInvoiceNumber&Sequence_3",
+        "strVenderorName&Sequence_3",
+        "strInvoiceDate&Sequence_3",
+        "strTaxID&Sequence_3",
+        "strItemDescription&Sequence_3",
+        "strSubTotal&Sequence_3",
+        "strTaxAmount&Sequence_3",
+        "strTotal&Sequence_3",
+        "strCurrency&Sequence_3",
+        "strResult&Sequence_3",
+        "arrResult&Sequence_3"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_strInvoiceFullData",
+        "out_Invoice"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "ACMESystem 1/ACME_SearchForVendor.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "boolVendorFounded&Sequence_26",
+        "boolVenderResultPageFound&Sequence_29"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_intRetryNumbers",
+        "in_tsRetryInterval",
+        "in_intTimeOutS",
+        "in_strVendorName"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "ACMESystem 1/ACME_IsVendorExist.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "strBody&Flowchart_1",
+        "strInvoiceFullName&Flowchart_1",
+        "strComment&Flowchart_1",
+        "strState&Flowchart_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_boolVendorExist",
+        "in_Invoice",
+        "in_Config",
+        "in_strVendorName",
+        "in_TransactionItem"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "ACME_SendMail.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "strStartMailBody&Sequence_1",
+        "strRobotMailPassword&Sequence_1",
+        "strRobotEmail&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "strInvoiceFullName",
+        "in_VendorName",
+        "in_Config"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "ACMESystem 1/ACME_AddInvoiceDetails.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "boolInvoiceDetails&Sequence_5",
+        "boolAddSuccess&Sequence_21"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_intRetryNumbers",
+        "in_tsRetryInterval",
+        "in_intTimeOutS",
+        "in_Invoice"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "ACMESystem 1/ACME_ClickSearchForVendor.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "boolDashboardFound&Sequence_21",
+        "boolVendorFounded&Sequence_5"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_intRetryNumbers",
+        "in_tsRetryInterval",
+        "in_intTimeOutS"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "ACMESystem 1/ACME_OpenDashboard.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "strUpdateWorkItemURL&Sequence_3",
+        "boolPostCondition&Sequence_22"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_intRetryNumbers",
+        "in_tsRetryInterval",
+        "in_strACMEURL",
+        "in_intTimeOutS"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "ACMESystem 1/ACME_ClickAddInvoiceDetails.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "boolDashboardFound&Sequence_21",
+        "boolInvoiceDetails&Sequence_5"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_intRetryNumbers",
+        "in_tsRetryInterval",
+        "in_intTimeOutS"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "ACMESystem 1/ACME_UpdateWorkItem.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "boolUpdateWorkItem&Sequence_20",
+        "boolUpdateWorkItem&Sequence_23"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_intRetryNumbers",
+        "in_tsRetryInterval",
+        "in_strComments",
+        "in_strState"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "ACMESystem 1/ACME_CloseUpdateWorkItem.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "boolUpdateWorkItem&Sequence_5",
+        "boolUpdateWorkItem&Sequence_26",
+        "boolUpdatePopUp&Sequence_26"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_intRetryNumbers",
+        "in_tsRetryInterval"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Framework/CloseAllApplications.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    }
+  ]
+}
